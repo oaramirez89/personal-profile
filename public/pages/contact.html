@@ -1,0 +1,155 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+		<link rel="shortcut icon" href="../images/favicon.ico">
+<title>RVT | Contact </title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="software engineer, database, sql, fullstack, developer, architect, web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- Custom Theme files -->
+<link href="../css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+<link href="../css/style.css" type="text/css" rel="stylesheet" media="all">
+<link href="../css/font-awesome.css" rel="stylesheet"> <!-- font-awesome icons -->
+<!-- //Custom Theme files -->
+<!-- js -->
+<script src="../js/jquery-2.2.3.min.js"></script>
+<script src="../js/formValidation.js"></script>
+<!-- //js -->
+<!-- web-fonts -->
+<link href="//fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i" rel="stylesheet">
+<link href="//fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i" rel="stylesheet">
+<!-- //web-fonts -->
+</head>
+<body>
+	<!-- banner -->
+	<div class="banner about-w3banner">
+		<div class="banner-w3lsinfo">
+			<!-- header -->
+			<div class="header">
+				<div class="container">
+					<div class="logo">
+						<h1><a href="/">RVT</a></h1>
+					</div>
+					<div class="menu">
+						<a href="#" class="navicon"></a>
+						<div class="toggle effect-3">
+							<ul class="toggle-menu">
+								<li><a href="/"> Home</a></li>
+								<li><a href="about.html"> About</a></li>
+								<li><a href="skills.html"> Skills</a></li>
+								<li><a href="experience.html">Experience</a></li>
+								<li><a href="education.html">Education</a></li>
+								<li><a href="projects.html"> My Projects</a></li>
+								<li><a href="contact.html" class="active"> Contact Us</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="social-w3licon">
+							<a target="_blank" href="https://twitter.com/oaramirez89" class="social-button twitter"><i class="fa fa-twitter"></i></a>
+							<a target="_blank" href="https://www.linkedin.com/in/oscararamirez/" class="social-button linkedin"><i class="fa fa-linkedin"></i></a>
+							<a target="_blank" href="https://stackoverflow.com/users/story/8671752" class="social-button stack-overflow"><i class="fa fa-stack-overflow"></i></a>
+							<a target="_blank" href="https://github.com/oaramirez89" class="social-button github"><i class="fa fa-github"></i></a>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+			<!-- //header -->
+			<div class="w3agile-address">
+				<div class="container">
+					<ul>
+						<li><i class="fa fa-map-marker" aria-hidden="true"></i>55 Mallory Ave Ste 64, Jersey City, NJ 07305</li>
+						<li><i class="fa fa-phone" aria-hidden="true"> </i>  +1 (646) 504-6536</li>
+						<li><i class="fa fa-envelope" aria-hidden="true"></i><a target = "_top" href="mailto:oscar@ramirezveratudela.com"> oscar@ramirezveratudela.com</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //banner -->
+	<!-- contact -->
+	<div class="about contact">
+		<div class="container">
+			<div class="w3ls-title">
+				<h2 class="agileits-title">Contact Me</h2>
+			</div>
+			<div class="contact-agileinfo">
+				<div class="col-md-7 w3agile-contact-grids">
+					<div class="ctact-w3left">
+						<form name="contact-form" action="/api/mail" method="post">
+							<span>
+								<i>Name</i>
+								<input type="text" name="Name" placeholder="" required="">
+							</span>
+							<span>
+								<i>Email</i>
+								<input type="email" name="Email" placeholder="" required="">
+							</span>
+							<span>
+								<i>Subject</i>
+								<input type="text" name="Subject" placeholder="" required="">
+							</span>
+							<span>
+								<i>Message</i>
+								<textarea name="Message" placeholder="" required=""></textarea>
+							</span>
+							<div class="w3_submit">
+								<input type="submit" value="Submit Now" onclick="submitForm()">
+							</div>
+						</form>
+					</div>
+				</div>
+				<div class="col-md-5 w3agile-contact-grids">
+					<p>Call us or email us to discuss your digital media plans. We'll be glad to help you achieve them.</p>
+					<div class="profile-grids">
+						<h5>Contact Info</h5>
+						<ul>
+							<li>
+								<b>PHONE</b> : +1 (646) 504-6536
+							</li>
+							<li>
+								<b>ADDRESS</b> : 55 Mallory Ave Ste 64, Jersey City, NJ 07305
+							</li>
+						</ul>
+					</div>
+					<div class="profile-grids">
+						<h5>Social Media Info</h5>
+						<ul>
+							<li>
+								<b>E-MAIL</b> : <a href="mailto:oscar@ramirezveratudela.com"> oscar@ramirezveratudela.com</a>
+							</li>
+							<li>
+								<b>TWITTER</b> : <a target="_blank" href="https://twitter.com/oaramirez89">@oaramirez89</a>
+							</li>
+						</ul>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!-- //contact -->
+	<!-- footer -->
+	<div class="w3agile-footer">
+		<div class="container">
+			<p>© 2017 Ramirez Vera-Tudela, Inc. All rights reserved.</p>
+		</div>
+	</div>
+	<!-- //footer -->
+	<!-- menu-js -->
+	<script>
+		$('.navicon').on('click', function (e) {
+		  e.preventDefault();
+		  $(this).toggleClass('navicon--active');
+		  $('.toggle').toggleClass('toggle--active');
+		});
+	</script>
+	<!-- //menu-js -->
+	<!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="../js/bootstrap.js"></script>
+</body>
+</html>

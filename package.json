@@ -1,0 +1,31 @@
+{
+  "name": "personal-profile",
+  "version": "1.0.0",
+  "description": "## Company Profile",
+  "main": "index.js",
+  "scripts": {
+    "build": "node-sass -w scss/style.scss -o public/css",
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oaramirez89/personal-profile.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oaramirez89/personal-profile/issues"
+  },
+  "homepage": "https://github.com/oaramirez89/personal-profile#readme",
+  "devDependencies": {
+    "node-sass": "^4.5.3"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.15.4",
+    "nodemailer": "^4.1.2",
+    "path": "^0.12.7"
+  }
+}
