@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "node-sass -w scss/style.scss -o public/css",
+    "deploy": "git checkout -b deploy && git commit --allow-empty -m 'Deploying' && git push --force heroku deploy:master && git checkout master && git branch -D deploy",
     "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
